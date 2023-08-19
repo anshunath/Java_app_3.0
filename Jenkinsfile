@@ -1,8 +1,4 @@
-pipeline{
-    environment {
-       SPRING_PROFILES_ACTIVE="dev"
-  }
-    
+pipeline{    
     agent any 
     
     stages {
